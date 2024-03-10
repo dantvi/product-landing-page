@@ -66,12 +66,18 @@ section {
 }
 
 .card {
-    width: 320px;
-    height: 400px;
+    width: 400px;
+    height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
+    border-radius: 15px;
 }
 
 .card-img {
-    width: 100%;
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+    border-radius: 15px 15px 0px 0px; 
+ }
+ 

@@ -147,7 +147,7 @@ form{
     }
     
     iframe {
-        width: 426px;
+        width: 90vw;
         height: 240px;
     }
 
@@ -174,5 +174,9 @@ form{
         width: 70vw;
         margin-top: 25px;
         margin-bottom: 50px;
+    }
+
+    #email {
+        width: 50vw;
     }
 }

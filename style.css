@@ -88,7 +88,7 @@ form{
     border-radius: 15px 15px 0px 0px; 
  }
 
- .form-container {
+.form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,20 +98,20 @@ form{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: rgba(215, 215, 215, 0.75);
     border-radius: 15px;
- }
+}
 
- .fa-envelope {
+.fa-envelope {
     font-size: 50px;
- }
+}
 
- #email {
+#email {
     height: 25px;
     width: 300px;
     border: none;
     border-radius: 10px;
- }
+}
 
- #submit {
+#submit {
     height: 25px;
     width: 100px;
     cursor: pointer;
@@ -119,9 +119,60 @@ form{
     border-radius: 10px;
     margin-top: 15px;
     font-size: 15px;
- }
+}
 
  #submit:hover {
     transform: scale(1.1);
     background-color: rgb(99, 230, 190);
- }
+}
+
+/* Media Query: iPhone (Vertical) */
+@media screen and (max-width: 600px) {
+    header {
+        position: static;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    section {
+        height: auto;
+    }
+    
+    iframe {
+        width: 426px;
+        height: 240px;
+    }
+
+    .header-container {
+        width: 95vw;
+    }
+
+    .nav-container {
+        margin-left: 20px;
+    }
+
+    .card-container {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    .form-container {
+        width: 70vw;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+}
